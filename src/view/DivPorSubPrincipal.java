@@ -8,6 +8,6 @@ public class DivPorSubPrincipal {
 		int a = Integer.parseInt(JOptionPane.showInputDialog("Insira o Dividendo: "));
 		int b = Integer.parseInt(JOptionPane.showInputDialog("Insira o Divisor: "));
 				
-		System.out.println("O resultado dessa divis„o È: " + divCon.divPorSub(a, b) + " com o resto " + (a%b));
+		System.out.println("O resto dessa divis√£o √©: " + divCon.divPorSub(a, b));
 	}
 }
