@@ -6,9 +6,9 @@ public class DivPorSubController {
 	}
 	
 	public int divPorSub(int a, int b) {
-		if (a-b < 0) {return 0;}
+		if (a-b < 0) {return a;}
 		else {
-			return 1 + divPorSub((a - b), b);
+			return divPorSub((a - b), b);
 		}
 	}
 	
